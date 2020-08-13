@@ -2,9 +2,10 @@
   "manifest_version": 2,
   "name": "next.js-app-detector",
   "description": "Detects if a website is built with Next.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "icons": {
-    "48": "icon.svg"
+    "16": "icon-16.png",
+    "128": "icon-128.png"
   },
   "background": {
     "scripts": ["background_script.js"]
@@ -17,9 +18,9 @@
   ],
   "browser_action": {
     "default_icon": {
-      "48": "icon-not-detected.svg"
+      "16": "icon-16-not-detected.png",
+      "128": "icon-128-not-detected.png"
     },
     "default_title": "No Next.js on this page"
-  },
-  "permissions": ["tabs", "activeTab"]
+  }
 }

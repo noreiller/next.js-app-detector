@@ -1,3 +1,7 @@
+/* global chrome */
+
+"use strict";
+
 let lastDetectionResult;
 
 window.addEventListener("message", function (evt) {
